@@ -79,3 +79,17 @@ button {
 button:hover {
     box-shadow: 0 0 20px #caf0f8;
 }
+
+@media only screen and (max-width:600px) {
+    #time{
+        font-size: 10px;
+        margin-right: 15px;
+    }
+    input{
+        width:130px
+    }
+    .section{
+        margin-right: 15px;
+    }
+
+}
